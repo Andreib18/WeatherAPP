@@ -23,7 +23,6 @@ root.config(background="#89cff0")
 
 #Icon
 
-#icon = customtkinter.CTkImage(file= "WhatsApp Image 2023-03-21 at 23.03.31.jpeg")
 
 
 # title of our window
@@ -44,7 +43,7 @@ city_value = StringVar()
 
 def showWeather():
     # Enter you api key, copies from the OpenWeatherMap dashboard
-    api_key = "26ea1e7d47f27e2f08930d69b98fcf46"  # sample API
+    api_key = "HIDDEN"  # sample API
 
     # Get city name from user from the input field (later in the code)
     city_name = city_value.get()
